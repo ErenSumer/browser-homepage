@@ -10,7 +10,7 @@ const ProfilePicture: React.FC = () => {
       whileHover={{ scale: 1.1, rotate: 10 }}
     >
       <img
-        src="/hero.png"
+        src="./hero.png"
         alt="User Profile"
         className="w-32 h-32 rounded-full border-4 border-[#c88164b5] shadow-lg"
       />

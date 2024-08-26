@@ -74,7 +74,7 @@ const HomePage: React.FC = () => {
                 <WelcomeMessage time={time} />
               </motion.div>
               <motion.h2 
-                className="text-4xl font-bold mt-2 bg-clip-text text-transparent bg-gradient-to-r from-[#f0b08c] via-[#f0d6a1] to-[#f0e6b2]"
+                className="text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#f0b08c] via-[#f0d6a1] to-[#f0e6b2]"
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
